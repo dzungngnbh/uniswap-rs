@@ -1,0 +1,11 @@
+[package]
+name = "uniswap-rs"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+anyhow.workspace = true
+alloy.workspace = true
+
+[profile.dev]
+debug = true
